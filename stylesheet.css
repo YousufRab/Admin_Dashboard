@@ -15,6 +15,11 @@ body {
 }
 
 #proPic {
-    height: 100px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+#smallProPic {
+    height: 50px;
     border-radius: 50%;
 }
