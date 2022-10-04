@@ -1,25 +1,25 @@
 body {
-    background-color:#2563eb ;
-}
-
-.container {
+    background-color:#075985 ;
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: 200px auto;
     grid-template-columns: 200px auto;
 }
 
 .topPanel {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    background-color: #7dd3fc;
 }
 
 .topLeft {
     display: grid;
     grid-template-rows: 100px 2fr;
+    grid-template-rows: 60px;
 }
 
 .topRight {
     display: grid;
+    grid-template-rows: 1fr 1fr;
 }
 
 
