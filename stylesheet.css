@@ -11,8 +11,15 @@ body {
 .topPanel {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr;
 }
+
+.topLeft {
+    
+}
+
+
+
+
 
 #proPic {
     height: 90px;
