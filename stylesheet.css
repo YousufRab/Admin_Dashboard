@@ -2,7 +2,7 @@ body {
     background-color:#075985 ;
     display: grid;
     grid-template-rows: 1fr auto;
-    grid-template-columns: 200px auto;
+    grid-template-columns: 300px auto;
 }
 
 .sidebar {
@@ -11,16 +11,31 @@ body {
 }
 
 .topPanel {
+    grid-row: 1/2;
+    grid-column: 2/3;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 250px;
     background-color: #7dd3fc;
 }
 
 .topLeft {
     display: grid;
-    grid-template-rows: 100px 2fr;
-    grid-template-rows: 60px;
+    grid-template-rows: 60px 3fr;
 }
+
+#greetBox {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 3fr;
+}
+
+#greetBox > img {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+
 
 .topRight {
     display: grid;
