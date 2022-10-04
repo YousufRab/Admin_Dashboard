@@ -14,9 +14,13 @@ body {
 }
 
 .topLeft {
-    
+    display: grid;
+    grid-template-rows: 100px 2fr;
 }
 
+.topRight {
+    display: grid;
+}
 
 
 
