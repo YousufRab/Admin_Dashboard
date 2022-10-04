@@ -14,3 +14,7 @@ body {
     grid-template-rows: 1fr 2fr;
 }
 
+#proPic {
+    height: 100px;
+    border-radius: 50%;
+}
