@@ -2,7 +2,7 @@ body {
     background-color:#075985 ;
     display: grid;
     grid-template-rows: 200px auto;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 400px auto;
 }
 
 .sidebar {
@@ -39,7 +39,7 @@ body {
     grid-column: 1/2;
     align-self: start;
     justify-self: center;
-    margin-right: 0px;
+    margin-left: 40px;
     margin-top: 25px;
 }
 
@@ -49,12 +49,14 @@ body {
     align-self: end;
     font-size: 0.85em;
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 #greetBox > img + p + p {
     grid-row: 2/3;
     grid-column: 2/3;
     margin-top: -10px;
+    margin-left: 10px;
 }
 
 #search {
@@ -83,7 +85,7 @@ body {
 
 #tR1 {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-columns: 50px 0.5fr 1fr;
 }
 
 .topRight > div > img {
