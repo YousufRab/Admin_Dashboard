@@ -1,5 +1,9 @@
+:root {
+    --mainColor: #075985
+}
+
 body {
-    background-color:#075985 ;
+    background-color:var(--mainColor) ;
     display: grid;
     grid-template-rows: 200px auto;
     grid-template-columns: minmax(200px, 375px) 3fr;
@@ -85,12 +89,13 @@ body {
 
 .topRight {
     display: grid;
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .topRight > div:nth-child(1){
     display: grid;
-    grid-template-columns: 50px 70px 1fr;
+    grid-template-columns: 100px 100px 100px;
+    justify-items: center;
 }
 
 .topRight > div > img:nth-child(1) {
@@ -108,16 +113,30 @@ body {
 }
 
 .topRight > div > img + img + p {
-    margin-top: 30px;
-    margin-left: 5px;
+    margin-top: 25px;
+    margin-left: -15px;
 }
 
 .topRight > div:nth-child(2) {
     display: flex;
     justify-content: space-around;
+    align-items: start;
 }
 
 .topRight > div:nth-child(2) > button {
     width: 95px;
     height: 35px;
+    border: 1px solid var(--mainColor);
+    background-color: var(--mainColor);
+    color: white;
+    font-size: 18px;
+    border-radius: 16px;
+}
+
+.topRight > div:nth-child(2) > button:hover{
+    cursor: pointer;
+}
+
+.topRight > div:nth-child(2) > button:nth-child(3) {
+    margin-right: 30px;
 }
