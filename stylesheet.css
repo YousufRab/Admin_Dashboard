@@ -2,7 +2,7 @@ body {
     background-color:#075985 ;
     display: grid;
     grid-template-rows: 200px auto;
-    grid-template-columns: 400px auto;
+    grid-template-columns: minmax(200px, 375px) 3fr;
 }
 
 .sidebar {
@@ -68,6 +68,7 @@ body {
     background-color: #e7e7e7;
     margin-top: 30px;
     margin-left: 8px;
+    outline: 0;
 }
 
 #magIcon{
@@ -83,16 +84,26 @@ body {
     grid-template-rows: 100px 1fr;
 }
 
-#tR1 {
+.topRight > div:nth-child(1){
     display: grid;
-    grid-template-columns: 50px 0.5fr 1fr;
+    grid-template-columns: 50px 70px 1fr;
 }
 
-.topRight > div > img {
+.topRight > div > img:nth-child(1) {
     height: 28px;
+    justify-self: end;
+    margin-top: 15px;
 }
 
-#smallProPic {
+.topRight > div > img + img {
+    justify-self: start;
+    margin-left: 15px;
     height: 50px;
     border-radius: 50%;
+    margin-top: 6px;
+}
+
+.topRight > div > img + img + p {
+    margin-top: 20px;
+    margin-left: 5px;
 }
