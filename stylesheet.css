@@ -78,7 +78,16 @@ body {
 
 .topRight {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 100px 1fr;
+}
+
+#tR1 {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr;
+}
+
+.topRight > div > img {
+    height: 28px;
 }
 
 #smallProPic {
