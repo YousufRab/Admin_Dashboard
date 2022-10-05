@@ -17,6 +17,7 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 250px;
     background-color: #7dd3fc;
+    margin-top: -8px;
 }
 
 .topLeft {
