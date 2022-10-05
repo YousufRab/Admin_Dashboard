@@ -61,7 +61,7 @@ body {
 #greetBox > img + p + p {
     grid-row: 2/3;
     grid-column: 2/3;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-left: 10px;
     font-size: 25px;
     font-weight: 800;
@@ -133,7 +133,7 @@ body {
     border-radius: 16px;
 }
 
-.topRight > div:nth-child(2) > button:hover{
+.topRight > div:nth-child(2) > button:hover, #magIcon, #greetBox > img:hover{
     cursor: pointer;
 }
 
