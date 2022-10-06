@@ -16,11 +16,26 @@ body {
     color: white;
 }
 
+.sidebarHeader > h2, .sBarLink {
+    margin-left: 15px;
+}
+
+.sidebarImg {
+    margin-left: 21px;
+}
+
+.sidebarHeader > h2 {
+    text-shadow: 2px 2px #202020;
+    letter-spacing: 1px;
+}
+
 .sBarLink {
     text-shadow: 2px 2px #202020;
     font-weight: 600;
     letter-spacing: 1px;
 }
+
+
 
 .topPanel {
     grid-row: 1/2;
