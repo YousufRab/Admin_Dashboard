@@ -195,7 +195,9 @@ body {
     border-radius: 25%;
 }
 
-
+.project:nth-child(-n+3) {
+    margin-top: 12px;
+}
 
 .project > img {
     border-radius: 30%;
