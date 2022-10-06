@@ -6,7 +6,7 @@ body {
     background-color:var(--mainColor) ;
     display: grid;
     grid-template-rows: 200px auto;
-    grid-template-columns: minmax(200px, 350px) 3fr;
+    grid-template-columns: minmax(200px, 240px) 3fr;
     font-family: 'Roboto', sans-serif;
 }
 
