@@ -17,7 +17,9 @@ body {
 }
 
 .sBarLink {
-    text-shadow: 3px 3px #202020;
+    text-shadow: 2px 2px #202020;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .topPanel {
