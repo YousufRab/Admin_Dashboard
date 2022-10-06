@@ -13,6 +13,11 @@ body {
 .sidebar {
     grid-row: 1/3;
     grid-column: 1/2;
+    color: white;
+}
+
+.sBarLink {
+    
 }
 
 .topPanel {
@@ -140,3 +145,4 @@ body {
 .topRight > div:nth-child(2) > button:nth-child(3) {
     margin-right: 30px;
 }
+
