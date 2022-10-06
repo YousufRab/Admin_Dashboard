@@ -57,7 +57,6 @@ body {
     grid-template-rows: 250px;
     background-color: white;
     margin-top: -8px;
-    margin-right: -8px;
 }
 
 .topLeft {
@@ -175,4 +174,14 @@ body {
     margin-right: 30px;
 }
 
+.contentContainer {
+    background-color: #e4ddf4;
+}
 
+.content {
+    margin-top: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #7dd3fc;
+}
