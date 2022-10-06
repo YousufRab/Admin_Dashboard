@@ -181,7 +181,22 @@ body {
 .content {
     margin-top: 5px;
     display: grid;
+    gap: 6px;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #7dd3fc;
+}
+
+.project {
+    text-align: center;
+    background-color: white;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    border-radius: 25%;
+}
+
+
+
+.project > img {
+    border-radius: 30%;
 }
