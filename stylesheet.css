@@ -6,7 +6,7 @@ body {
     background-color:var(--mainColor) ;
     display: grid;
     grid-template-rows: 200px auto;
-    grid-template-columns: minmax(200px, 375px) 3fr;
+    grid-template-columns: minmax(200px, 350px) 3fr;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -133,7 +133,7 @@ body {
     border-radius: 16px;
 }
 
-.topRight > div:nth-child(2) > button:hover, #magIcon, #greetBox > img:hover{
+.topRight > div:nth-child(2) > button:hover, #magIcon,.topRight > div > img, #greetBox > img:hover{
     cursor: pointer;
 }
 
