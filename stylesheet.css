@@ -20,8 +20,14 @@ body {
     margin-left: 15px;
 }
 
+.sidebarHeader > h2,.sidebarImg, .sBarLink:hover {
+    cursor: pointer;
+}
+
 .sidebarImg {
     margin-left: 21px;
+    margin-top: 12px;
+    margin-bottom: -10px;
 }
 
 .sidebarHeader > h2 {
