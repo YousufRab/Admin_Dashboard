@@ -220,10 +220,11 @@ body {
     grid-template-rows: auto 1fr;
 }
 
-.announcements > h4 {
+.announcements > h4, .annContent > div {
     text-align: center;
 }
 
 .annContent > div {
-    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
 }
