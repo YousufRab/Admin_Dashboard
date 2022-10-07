@@ -177,13 +177,14 @@ body {
 .contentContainer {
     background-color: #e4ddf4;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
 }
 
 .content {
     margin-top: 5px;
     display: grid;
     gap: 6px;
+    column-gap: 10px;
     grid-template-rows: auto 1fr 1fr;
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     background-color: #7dd3fc;
@@ -220,5 +221,9 @@ body {
 }
 
 .announcements > h4 {
+    text-align: center;
+}
+
+.annContent > div {
     text-align: center;
 }
