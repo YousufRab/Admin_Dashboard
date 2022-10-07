@@ -219,11 +219,20 @@ body {
     grid-template-rows: auto 1fr;
 }
 
+.announcements > h4 {
+    margin-bottom: -5px;
+}
+
 .announcements > h4, .annContent > div {
     text-align: center;
+}
+
+div > h5 {
+    font-size: 15px;
 }
 
 .annContent > div {
     padding-left: 10px;
     padding-right: 10px;
+    font-size: 13px;
 }
