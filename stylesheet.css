@@ -202,8 +202,8 @@ body {
 .content > h4 {
     grid-column: 1/-1;
     margin-left: 65px;
-    margin-bottom: -8px;
-    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-top: 16px;
     font-size: 1.4em;
     letter-spacing: 0.8px;
 }
