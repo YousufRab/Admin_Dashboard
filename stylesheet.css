@@ -196,6 +196,7 @@ body {
     font-weight: 700;
     letter-spacing: 1.2px;
     border-radius: 25%;
+    margin-top: 10px;
 }
 
 .content > h4 {
@@ -207,9 +208,7 @@ body {
     letter-spacing: 0.8px;
 }
 
-.project:nth-child(-n+3) {
-    margin-top: 12px;
-}
+
 
 .project > img {
     border-radius: 30%;
