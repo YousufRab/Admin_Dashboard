@@ -176,6 +176,8 @@ body {
 
 .contentContainer {
     background-color: #e4ddf4;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
 }
 
 .content {
@@ -210,4 +212,9 @@ body {
 
 .project > img {
     border-radius: 30%;
+}
+
+.announcements {
+    display: grid;
+    grid-template-rows: auto 1fr;
 }
