@@ -197,7 +197,7 @@ body {
 
 .content > h4 {
     grid-column: 1/-1;
-    margin-left: 85px;
+    margin-left: 65px;
     margin-bottom: -8px;
     margin-top: 10px;
     font-size: 1.4em;
