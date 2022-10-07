@@ -218,3 +218,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr;
 }
+
+.announcements > h4 {
+    text-align: center;
+}
