@@ -236,3 +236,8 @@ div > h5 {
     padding-right: 10px;
     font-size: 13px;
 }
+
+.trendContent > div > img {
+    height: 50px;
+    border-radius: 50%;
+}
