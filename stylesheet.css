@@ -101,7 +101,7 @@ body {
 #greetBox > img + p + p {
     grid-row: 2/3;
     grid-column: 2/3;
-    margin-top: -5px;
+    margin-top: -145px;
     margin-left: 10px;
     font-size: 25px;
     font-weight: 800;
