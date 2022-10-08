@@ -64,6 +64,11 @@ body {
     grid-template-rows: 60px 3fr;
 }
 
+.topLeft > div {
+    display: flex;
+    align-items: center;
+}
+
 #greetBox {
     display: grid;
     grid-template-columns: 120px 4fr;
@@ -115,7 +120,7 @@ body {
 #magIcon{
     height: 28px;
     position: relative;
-    top: 10px;
+    top: 16px;
     left: 5px;
     margin-left: 20px;
 }
@@ -215,6 +220,7 @@ body {
 .project > a > img {
     border-radius: 30%;
 }
+
 
 .announcements {
     display: grid;
