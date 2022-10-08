@@ -190,6 +190,8 @@ body {
     background-color: #7dd3fc;
     padding-right: 12px;
     padding-left: 12px;
+    padding-bottom: 8px;
+    margin-bottom: -8px;
 }
 
 .project {
