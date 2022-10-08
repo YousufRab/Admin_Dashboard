@@ -8,6 +8,8 @@ body {
     grid-template-rows: 200px auto;
     grid-template-columns: minmax(200px, 240px) 3fr;
     font-family: 'Roboto', sans-serif;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 .sidebar {
