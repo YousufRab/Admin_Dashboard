@@ -275,3 +275,11 @@ div > h5 {
     margin-top: 0px;
     text-align: start;
 }
+
+.project > p > a:link {
+    text-decoration: none;
+}
+
+.project > p > a:visited {
+    color: black;
+}
