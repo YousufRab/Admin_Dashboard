@@ -249,6 +249,8 @@ div > h5 {
     grid-column: 1/2;
     grid-row: 1/3;
     align-self: center;
+    justify-self: end;
+    margin-right: 8px;
 }
 
 .trendContent > div > span {
@@ -256,5 +258,5 @@ div > h5 {
 }
 
 .trendContent > div > p {
-    align-self: center;
+    margin-top: 0px;
 }
