@@ -237,6 +237,10 @@ div > h5 {
     font-size: 13px;
 }
 
+.trend {
+    text-align: center;
+}
+
 .trendContent > div {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -255,8 +259,10 @@ div > h5 {
 
 .trendContent > div > span {
     align-self: end;
+    text-align: start;
 }
 
 .trendContent > div > p {
     margin-top: 0px;
+    text-align: start;
 }
