@@ -235,6 +235,7 @@ body {
 
 .announcements > h4 {
     margin-bottom: -5px;
+    letter-spacing: 1px;
 }
 
 .announcements > h4, .annContent > div {
